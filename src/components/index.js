@@ -1,5 +1,5 @@
-export YasContainer from './Yas-Container';
-export YasContent from './Yas-Content';
-export YasText from './Yas-Text';
-export YasTextInput from './Yas-Text-Input';
-export YasNavbarTitle from './Yas-Navbar-Title';
+export const YasContainer = require('./Yas-Container');
+export const YasContent = require('./Yas-Content');
+export const YasText = require('./Yas-Text');
+export const YasTextInput = require('./Yas-Text-Input');
+export const YasNavbarTitle = require('./Yas-Navbar-Title');
