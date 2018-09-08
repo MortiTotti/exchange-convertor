@@ -46,13 +46,6 @@ class HomeScreen extends Component {
     });
   }
 
-  _onCountrySelected = (selected) => {
-    let { currencyRates } = this.props;
-    selectedRate = currencyRates[selected];
-    let calculatedRate = this._calculateTheCurrency(selectedRate);
-    this.setState({ ...this.state, targetCurrencyRate: selected, calculatedRate: calculatedRate });
-  }
-
   render() {
     let { targetCurrencySymbol, amountInBaseCurrency, calculatedTargetCurrency } = this.state;
     let formattedCalculatedTargetCurrency = digitGrouping(calculatedTargetCurrency);
