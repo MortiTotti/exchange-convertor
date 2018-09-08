@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "babel-preset-expo"
+     /* uncomment this to run the test cases, due to babel upgrade there is an issue which i'm looking for the solution */
+     /*, "env"   */
+  ],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
