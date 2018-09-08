@@ -3,7 +3,7 @@ import { View, StyleSheet } from "react-native";
 import PropTypes from 'prop-types'
 import YasColors from '@Constants/Yas-Colors';
 import YasDimensions from '@Constants/Yas-Dimensions';
-import { YasText } from '@Components';
+import YasText from './Yas-Text';
 
 const YasNavbarTitle = (props) => (
     <View style={styles.container}>

@@ -1,5 +1,13 @@
-export const YasContainer = require('./Yas-Container');
-export const YasContent = require('./Yas-Content');
-export const YasText = require('./Yas-Text');
-export const YasTextInput = require('./Yas-Text-Input');
-export const YasNavbarTitle = require('./Yas-Navbar-Title');
+import YasContainer from './Yas-Container';
+import YasContent from './Yas-Content';
+import YasText from './Yas-Text';
+import YasTextInput from './Yas-Text-Input';
+import YasNavbarTitle from './Yas-Navbar-Title';
+
+export {
+    YasContainer,
+    YasContent,
+    YasText,
+    YasTextInput,
+    YasNavbarTitle
+}
